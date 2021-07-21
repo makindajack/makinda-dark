@@ -1,0 +1,21 @@
+{
+    "name": "makinda-dark",
+    "displayName": "Makinda Dark",
+    "description": "Makinda Dark Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jackson Makinda",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Jackson Makinda-color-theme.json"
+            }
+        ]
+    }
+}
