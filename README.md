@@ -3,11 +3,11 @@
 <p align="center">
   <!-- marketplace version -->
   <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-dark">
-    <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/makindajack.makinda-dark.svg?maxAge=3600&style=for-the-badge&labelColor=1A1A1A&color=F0A694">
+    <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/makindajack.makinda-dark.svg?maxAge=36&style=for-the-badge&labelColor=1A1A1A&color=F0A694">
   </a>
   <!-- downloads -->
   <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-dark">
-    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/makindajack.makinda-dark.svg?maxAge=3600&style=for-the-badge&labelColor=1A1A1A&color=F0A694">
+    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/makindajack.makinda-dark.svg?maxAge=36&style=for-the-badge&labelColor=1A1A1A&color=F0A694">
   </a>
   <!-- rating -->
   <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-dark">
