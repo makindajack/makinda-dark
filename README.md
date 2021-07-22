@@ -22,6 +22,7 @@ This is a customized Theme.
 ### Icons
 
 - [Nomo Dark Icon Theme](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-icontheme-nomo-dark) - by be5invis
+- [Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons) - by Philipp Kief
 
 ### Installing
 
