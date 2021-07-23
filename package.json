@@ -2,7 +2,7 @@
   "name": "makinda-dark",
   "displayName": "Makinda Dark",
   "description": "Makinda Dark Theme",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "makindajack",
   "repository": {
     "type": "git",
@@ -25,9 +25,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Jackson Makinda",
+        "label": "Makinda Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Jackson Makinda-color-theme.json"
+        "path": "./themes/Makinda Dark-color-theme.json"
       }
     ]
   }
