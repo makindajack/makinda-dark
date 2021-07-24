@@ -1,12 +1,21 @@
 {
   "name": "makinda-dark",
   "displayName": "Makinda Dark",
-  "description": "Makinda Dark Theme",
-  "version": "0.2.3",
+  "description": "A dark brownish theme for VS Code",
+  "version": "0.2.4",
   "publisher": "makindajack",
+  "icon": "https://i.imgur.com/xWOlK6G.png",
+  "author": {
+    "name": "Jackson Makinda",
+    "email": "jacksonmakinda@outlook.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/makindajack/makinda-dark"
+  },
+  "bugs": {
+    "url": "https://github.com/makindajack/makinda-dark/issues",
+    "email": "jacksonmakinda@outlook.com"
   },
   "keywords": [
     "theme",
