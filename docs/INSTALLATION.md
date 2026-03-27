@@ -1,0 +1,150 @@
+# Installation Guide
+
+This guide covers all methods for installing the Makinda Dark theme.
+
+## Prerequisites
+
+- Visual Studio Code version 1.74.0 or higher
+- Active internet connection (for marketplace installation)
+
+## Installation Methods
+
+### Method 1: VS Code Marketplace (Recommended)
+
+1. **Open VS Code**
+
+2. **Access Extensions**
+   - Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS)
+   - Or click the Extensions icon in the Activity Bar
+
+3. **Search for Theme**
+   - Type `Makinda Dark` in the search box
+   - Look for the extension by **Jackson Makinda**
+
+4. **Install**
+   - Click the **Install** button
+
+5. **Activate Theme**
+   - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS)
+   - Type `Color Theme`
+   - Select **Makinda Dark**
+
+### Method 2: Quick Open
+
+1. Press `Ctrl+P` (Windows/Linux) or `Cmd+P` (macOS)
+2. Paste: `ext install makindajack.makinda-dark`
+3. Press Enter
+
+### Method 3: VSIX File
+
+For offline installation or pre-release versions:
+
+```bash
+# Download the .vsix file from GitHub releases
+# Then install via command line:
+code --install-extension makinda-dark-1.0.0.vsix
+```
+
+Or in VS Code:
+
+1. Open Command Palette (`Ctrl+Shift+P`)
+2. Type `Extensions: Install from VSIX...`
+3. Select the downloaded `.vsix` file
+
+### Method 4: From Source
+
+```bash
+# Clone the repository
+git clone https://github.com/makindajack/makinda-dark.git
+
+# Open in VS Code
+code makinda-dark
+
+# Press F5 to launch Extension Development Host
+# The theme will be available in the new window
+```
+
+## Verifying Installation
+
+1. Open Command Palette (`Ctrl+Shift+P`)
+2. Type `Color Theme`
+3. You should see **Makinda Dark** in the list
+
+## Recommended Companion Extensions
+
+For the best experience, we recommend:
+
+### Icon Themes
+
+- **Nomo Dark Icon Theme** - Minimalist icons that complement our dark theme
+- **Material Product Icons** - Modern product icons
+
+### Fonts
+
+- **JetBrains Mono** - Beautiful font with ligatures
+- **Fira Code** - Popular coding font with ligatures
+
+## Recommended VS Code Settings
+
+Add these to your `settings.json` for optimal experience:
+
+```json
+{
+  "workbench.colorTheme": "Makinda Dark",
+  "editor.fontFamily": "JetBrains Mono, Fira Code, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true
+}
+```
+
+## Troubleshooting
+
+### Theme Not Appearing
+
+1. Restart VS Code
+2. Check if the extension is enabled in Extensions panel
+3. Verify VS Code version is 1.74.0+
+
+### Colors Look Wrong
+
+1. Check if another extension is overriding colors
+2. Disable other color-related extensions temporarily
+3. Reset VS Code settings if needed
+
+### Installation Failed
+
+1. Check internet connection
+2. Try clearing VS Code extension cache:
+
+   ```bash
+   # Windows
+   rd /s /q %USERPROFILE%\.vscode\extensions\makindajack.makinda-dark-*
+
+   # macOS/Linux
+   rm -rf ~/.vscode/extensions/makindajack.makinda-dark-*
+   ```
+
+3. Reinstall the extension
+
+## Uninstallation
+
+1. Open Extensions panel (`Ctrl+Shift+X`)
+2. Find **Makinda Dark**
+3. Click **Uninstall**
+
+Or via command line:
+
+```bash
+code --uninstall-extension makindajack.makinda-dark
+```
+
+## Getting Help
+
+- [GitHub Issues](https://github.com/makindajack/makinda-dark/issues)
+- [Email Support](mailto:jacksonmakinda@outlook.com)

@@ -1,14 +1,20 @@
 {
   "name": "makinda-dark",
   "displayName": "Makinda Dark",
-  "description": "A dark orange-ish theme for VS Code",
-  "version": "0.2.6",
+  "description": "A professionally curated dark theme with vibrant orange accents and excellent contrast for VS Code",
+  "version": "1.0.0",
   "publisher": "makindajack",
+  "license": "MIT",
   "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0e0e0f",
+    "theme": "dark"
+  },
   "author": {
     "name": "Jackson Makinda",
     "email": "jacksonmakinda@outlook.com"
   },
+  "homepage": "https://github.com/makindajack/makinda-dark#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/makindajack/makinda-dark"
@@ -19,14 +25,19 @@
   },
   "keywords": [
     "theme",
+    "dark",
     "dark theme",
+    "orange",
+    "makinda",
     "makinda dark",
     "makindajack",
     "jackson makinda",
-    "makinda dark theme"
+    "color theme",
+    "syntax highlighting",
+    "editor theme"
   ],
   "engines": {
-    "vscode": "^1.58.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
@@ -39,5 +50,10 @@
         "path": "./themes/Makinda Dark-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "vscode:prepublish": "echo 'Ready for publishing'",
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }

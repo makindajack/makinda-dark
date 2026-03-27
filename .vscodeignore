@@ -1,4 +1,13 @@
 .vscode/**
 .vscode-test/**
+.git/**
+.github/**
+docs/**
+node_modules/**
+*.vsix
 .gitignore
+.gitattributes
 vsc-extension-quickstart.md
+**/*.md
+!README.md
+!CHANGELOG.md
